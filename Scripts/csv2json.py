@@ -1,6 +1,6 @@
 import csv
 import json
-import os
+
 
 output = []
 with open("Deutsch Anki/Data/Verbs.csv", encoding="windows-1252") as f:
@@ -22,5 +22,5 @@ with open("Deutsch Anki/Data/Verbs.csv", encoding="windows-1252") as f:
         }
         output.append(entry)
 
-with open("Deutsch Anki/Data/Verben.json", "w", encoding="windows-1252") as f:
+with open("Deutsch Anki/Data/Verben.json", "w", encoding="UTF-8") as f:
     json.dump(output, f, ensure_ascii=False, indent=2)
