@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>German Verbs Flashcards</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/deck.gl@latest/dist.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>🇩🇪 German Verbs Master</h1>
+            <div id="stats">Karten: 0 | Gelernt: 0</div>
+        </header>
+        
+        <div id="flashcard-container">
+            <div id="flashcard" onclick="flipCard()">
+                <div class="front" id="front-content"></div>
+                <div class="back" id="back-content"></div>
+            </div>
+            
+            <div id="controls">
+                <button onclick="rateCard('again')">❌ Wiederholen</button>
+                <button onclick="rateCard('hard')">😣 Schwer</button>
+                <button onclick="rateCard('good')">✓ Gut</button>
+                <button onclick="rateCard('easy')">😎 Einfach</button>
+            </div>
+            
+            <div id="deck-selector">
+                <select id="level-filter">
+                    <option value="all">Alle Level</option>
+                    <option value="A2">A2</option>
+                    <option value="B1">B1</option>
+                    <option value="B2">B2</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

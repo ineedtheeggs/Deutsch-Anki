@@ -1,0 +1,102 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+#flashcard-container {
+    perspective: 1000px;
+    margin: 40px auto;
+}
+
+#flashcard {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    cursor: pointer;
+}
+
+#flashcard.flipped {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.front {
+    background: white;
+    color: #333;
+}
+
+.back {
+    background: #2c3e50;
+    color: white;
+    transform: rotateY(180deg);
+    text-align: left;
+    overflow-y: auto;
+}
+
+.hint {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+#controls button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#controls button:hover {
+    transform: translateY(-2px);
+}
+
+#controls button:nth-child(1) { background: #e74c3c; color: white; }
+#controls button:nth-child(2) { background: #e67e22; color: white; }
+#controls button:nth-child(3) { background: #27ae60; color: white; }
+#controls button:nth-child(4) { background: #3498db; color: white; }
+
+.examples ul {
+    padding-left: 20px;
+}
+
+.conjugation {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.level {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #95a5a6;
+}

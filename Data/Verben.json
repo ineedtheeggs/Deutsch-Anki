@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "front": "erwaegen",
+    "back": {
+      "definition": "etwas sorgfaeltig in seinen Gedanken pruefen, ob man es tun soll ",
+      "examples": [
+        "Sie erwaegt einen Jobwechsel , Alle Moeglichkeiten wurden gruendlich erwogen"
+      ],
+      "conjugation": {
+        "Pr�sens": "erwaegt ",
+        "Pr�teritum": "erwog",
+        "Perfekt": "hat erwogen"
+      }
+    },
+    "tags": [
+      "b1"
+    ]
+  },
+  {
+    "id": 2,
+    "front": "einfallen",
+    "back": {
+      "definition": "etw. Kommt jmdm. ploetzlich in den Sinn, ein ploetzlicher Gedanke kommt jmdm. ",
+      "examples": [
+        ""
+      ],
+      "conjugation": {
+        "Pr�sens": "faellt ein",
+        "Pr�teritum": "fiel ein",
+        "Perfekt": "�ist�eingefallen "
+      }
+    },
+    "tags": [
+      "b2"
+    ]
+  },
+  {
+    "id": 3,
+    "front": "",
+    "back": {
+      "definition": "",
+      "examples": [
+        ""
+      ],
+      "conjugation": {
+        "Pr�sens": "",
+        "Pr�teritum": "",
+        "Perfekt": ""
+      }
+    },
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "id": 4,
+    "front": "",
+    "back": {
+      "definition": "",
+      "examples": [
+        ""
+      ],
+      "conjugation": {
+        "Pr�sens": "",
+        "Pr�teritum": "",
+        "Perfekt": ""
+      }
+    },
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "id": 5,
+    "front": "",
+    "back": {
+      "definition": "",
+      "examples": [
+        ""
+      ],
+      "conjugation": {
+        "Pr�sens": "",
+        "Pr�teritum": "",
+        "Perfekt": ""
+      }
+    },
+    "tags": [
+      ""
+    ]
+  },
+  {
+    "id": 6,
+    "front": "",
+    "back": {
+      "definition": "",
+      "examples": [
+        ""
+      ],
+      "conjugation": {
+        "Pr�sens": "",
+        "Pr�teritum": "",
+        "Perfekt": ""
+      }
+    },
+    "tags": [
+      ""
+    ]
+  }
+]
