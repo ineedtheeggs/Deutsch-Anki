@@ -5,7 +5,7 @@ let reviewData = JSON.parse(localStorage.getItem('verbReviews')) || {};
 async function loadCards() {
     try {
         // Load from GitHub raw URL
-        const response = await fetch('https://github.com/ineedtheeggs/Deutsch-Anki/blob/master/Data/Verben.json');
+        const response = await fetch('https://raw.githubusercontent.com/ineedtheeggs/Deutsch-Anki/master/Data/Verben.json');
         cards = await response.json();
         shuffleArray(cards);
         showCard(currentCardIndex);
