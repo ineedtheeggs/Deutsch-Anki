@@ -1,9 +1,9 @@
 import csv
 import json
-
-
+import os
+print(os.getcwd())
 output = []
-with open("Deutsch Anki/Data/Verbs.csv", encoding="windows-1252") as f:
+with open("Data/Verbs.csv", encoding="windows-1252") as f:
     reader = csv.DictReader(f, delimiter=",")
     for row in reader:
         entry = {
@@ -22,5 +22,5 @@ with open("Deutsch Anki/Data/Verbs.csv", encoding="windows-1252") as f:
         }
         output.append(entry)
 
-with open("Deutsch Anki/Data/Verben.json", "w", encoding="UTF-8") as f:
+with open("Data/Verben.json", "w", encoding="UTF-8") as f:
     json.dump(output, f, ensure_ascii=False, indent=2)
