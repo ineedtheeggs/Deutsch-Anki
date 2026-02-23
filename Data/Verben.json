@@ -178,5 +178,77 @@
     "tags": [
       "b2"
     ]
+  },
+  {
+    "id": 11,
+    "front": "aufschrecken",
+    "back": {
+      "definition": "1. (jmd. Schreckt auf) ploetzlich aus Schlaf oder Versunkenheit erwachen und sich dabei ruckartig nach oben bewegen\n-[übertragen] durch eine ueberraschende Entwicklung, eine unangenehme Nachricht erchrecken, in Unruhe geraten",
+      "examples": [
+        "1. ein Schuss, Klopfen, Aufschrei, Geräusch schreckte ihn auf \n2."
+      ],
+      "conjugation": {
+        "Präsens": "schreckt auf",
+        "Präteritum": "schreckte auf",
+        "Perfekt": "hat aufgeschreckt"
+      }
+    },
+    "tags": [
+      "b2"
+    ]
+  },
+  {
+    "id": 12,
+    "front": "bescheren",
+    "back": {
+      "definition": "[jmd. etw. Bescheren] jmd. etw. schenken  ",
+      "examples": [
+        "den Kindern wurde ein Puppentheater beschert"
+      ],
+      "conjugation": {
+        "Präsens": "beschert",
+        "Präteritum": "bescherte",
+        "Perfekt": "hat beschert"
+      }
+    },
+    "tags": [
+      "b2"
+    ]
+  },
+  {
+    "id": 13,
+    "front": "verzichten",
+    "back": {
+      "definition": "den Anspruch auf etw. Nicht gelten machen",
+      "examples": [
+        "auf einen Anspruch, ein Recht, seinen Anteil, sein Erbe verzichten"
+      ],
+      "conjugation": {
+        "Präsens": "verzichtet",
+        "Präteritum": "verzichtete",
+        "Perfekt": "hat verzichtet"
+      }
+    },
+    "tags": [
+      "b1"
+    ]
+  },
+  {
+    "id": 14,
+    "front": "verweigern",
+    "back": {
+      "definition": "etw. ablehnen, abschlagen ",
+      "examples": [
+        "die Annahme eines Briefes verweigern"
+      ],
+      "conjugation": {
+        "Präsens": "verweigert",
+        "Präteritum": "verweigerte",
+        "Perfekt": "hat verweigert"
+      }
+    },
+    "tags": [
+      "b2"
+    ]
   }
 ]
